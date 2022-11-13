@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  display: flex;
+  width: auto;
+}
+
+.odin{
+    color: white;
+    background: black;
+    position: absolute;
+}
+
+.container{
+    /* width: 50px; */
+}
+
+.container2{
+    padding: 200px 0;
+}
+.intro{
+    background-color: aliceblue;
+    padding: 50px;
+}
+
+.doit{
+    padding: 50px;
+}
+
+.form-inputs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 10px;
+  padding: 50px;
+  gap: 30px;
+}
+
+.inputs{
+    width: calc(100%/2 -10px);
+}
+
+.btn{
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    background: rgb(4, 36, 4);
+    color: white;
+    border-radius: 10px;
+}
